@@ -1,0 +1,8 @@
+;First define the registers, 
+
+register  8  a,b
+
+opcode	nop				: db 0
+opcode  lda #1          : db 1, #1
+opcode  ldb #1          : db 2, #1
+opcode  jmp #1          : db 3, #1
